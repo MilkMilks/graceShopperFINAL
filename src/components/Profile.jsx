@@ -36,11 +36,9 @@ const Profile = () => {
       <div className="mask"></div>
       <Container>
         <h1 className="text-center text-white p-4 mt-0 mb-1 mb-md-0">
-          {userName}'s Profile Page
+          {userName} Profile Page
         </h1>
-        <h3 className="text-center text-white p-4 mt-0 mb-1 mb-md-0">
-          Your NFTs
-        </h3>
+        <h3 className="text-center text-white p-4 mt-0 mb-1 mb-md-0">Your NFTs</h3>
         <Row className="m-5">
           {allProducts && allProducts.length
             ? allProducts.map((product, index) => {
@@ -65,8 +63,12 @@ const Profile = () => {
             : "No products found"}
         </Row>
       </Container>
+      <br /> <br /> <br /> <br /> <br /> <br /> <br />
+      <br /> <br /> <br /> <br /> <br /> <br /> <br />
+      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
     </div>
   );
 };
 
 export default Profile;
+
